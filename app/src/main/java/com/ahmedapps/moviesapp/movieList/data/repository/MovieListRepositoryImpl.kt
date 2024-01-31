@@ -13,9 +13,7 @@ import okio.IOException
 import retrofit2.HttpException
 import javax.inject.Inject
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
+
 class MovieListRepositoryImpl @Inject constructor(
     private val movieApi: MovieApi,
     private val movieDatabase: MovieDatabase

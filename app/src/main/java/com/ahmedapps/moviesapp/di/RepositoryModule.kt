@@ -8,9 +8,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {

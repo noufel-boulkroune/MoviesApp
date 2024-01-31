@@ -2,9 +2,6 @@ package com.ahmedapps.moviesapp.movieList.domain.model
 
 import androidx.room.PrimaryKey
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
 data class Movie(
     val adult: Boolean,
     val backdrop_path: String,
