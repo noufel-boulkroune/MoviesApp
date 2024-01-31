@@ -4,10 +4,6 @@ import com.ahmedapps.moviesapp.movieList.data.local.movie.MovieEntity
 import com.ahmedapps.moviesapp.movieList.data.remote.respnod.MovieDto
 import com.ahmedapps.moviesapp.movieList.domain.model.Movie
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
-
 
 fun MovieDto.toMovieEntity(
     category: String

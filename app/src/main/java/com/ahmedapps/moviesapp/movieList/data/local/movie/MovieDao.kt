@@ -4,9 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Upsert
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
+
 @Dao
 interface MovieDao {
     @Upsert

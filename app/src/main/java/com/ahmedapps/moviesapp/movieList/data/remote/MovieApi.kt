@@ -5,9 +5,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-/**
- * @author Android Devs Academy (Ahmed Guedmioui)
- */
 interface MovieApi {
 
     @GET("movie/{category}")
@@ -20,7 +17,7 @@ interface MovieApi {
     companion object {
         const val BASE_URL = "https://api.themoviedb.org/3/"
         const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
-        const val API_KEY = "xxxx"
+        const val API_KEY = "a6d4c1070710896cdfe6c656a0e9e52f"
     }
 
 }
